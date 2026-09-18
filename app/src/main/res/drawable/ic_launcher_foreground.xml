@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- 單色層。系統主題圖示會重新上色，此處顏色僅作佔位。 -->
+<!-- 極簡相片圖示。108dp 畫布，圖形 56x50dp，完全落在 66dp 安全區內。 -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="108dp"
     android:height="108dp"
@@ -9,19 +9,19 @@
     <!-- 外框 -->
     <path
         android:pathData="M36,29 L72,29 A10,10 0 0 1 82,39 L82,69 A10,10 0 0 1 72,79 L36,79 A10,10 0 0 1 26,69 L26,39 A10,10 0 0 1 36,29 Z"
-        android:strokeColor="#000000"
+        android:strokeColor="@color/ic_launcher_foreground"
         android:strokeWidth="5"
         android:strokeLineJoin="round" />
 
     <!-- 太陽 -->
     <path
         android:pathData="M37.7,42.5 A3.8,3.8 0 1 0 45.3,42.5 A3.8,3.8 0 1 0 37.7,42.5 Z"
-        android:fillColor="#000000" />
+        android:fillColor="@color/ic_launcher_foreground" />
 
     <!-- 山稜線 -->
     <path
         android:pathData="M35,68 L47,52 L56,61 L63,55 L73,68"
-        android:strokeColor="#000000"
+        android:strokeColor="@color/ic_launcher_foreground"
         android:strokeWidth="5"
         android:strokeLineCap="round"
         android:strokeLineJoin="round" />
