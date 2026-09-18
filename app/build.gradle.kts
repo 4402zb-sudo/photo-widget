@@ -136,13 +136,7 @@ androidComponents {
         )
 
         variant.androidResources.localeFilters
-            .addAll(
-                "en", "de", "es", "fil", "fr", "it", "iw", "ja",
-                "pt", "ro", "ru", "sr", "tr",
-                "zh",          // 既有：values-zh（簡體）
-                "zh-rTW",      // 新增：values-zh-rTW（繁體）
-                "b+zh+Hant",   // 保險：萬一日後資料夾改成 b+ 命名
-            )
+            .addAll("en", "de", "es", "fil", "fr", "it", "iw", "ja", "pt", "ro", "ru", "sr", "tr", "zh", "zh-rTW")
     }
 }
 
