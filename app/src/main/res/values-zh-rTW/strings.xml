@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Widget Host -->
+    <string name="photo_widget_host_description">加入你喜歡的照片或同步資料夾，設定輕觸動作。自訂時可選擇格式，放上主畫面後可調整大小。</string>
+    <string name="photo_widget_host_loading">載入中…</string>
+    <string name="photo_widget_host_failed">載入失敗\n再試一次？</string>
+    <string name="transparent_widget_label">透明小工具</string>
+    <string name="transparent_widget_host_description">沒有照片的隱形小工具。設定輕觸動作，就能從主畫面開啟應用程式、資料夾或連結。</string>
+
+    <!-- Home -->
+    <string name="photo_widget_home_title">用你喜歡的照片妝點主畫面</string>
+    <string name="photo_widget_home_instruction">輕觸下列任一選項就能建立新的小工具。別擔心，隨時都可以再改。</string>
+    <string name="photo_widget_home_new">新增小工具</string>
+    <string name="photo_widget_home_current">我的小工具</string>
+    <string name="photo_widget_home_settings">設定</string>
+    <string name="photo_widget_home_section_widgets">小工具</string>
+    <string name="photo_widget_home_section_background_activity">背景活動</string>
+    <string name="photo_widget_home_section_data">資料</string>
+    <string name="photo_widget_home_section_appearance">外觀</string>
+    <string name="photo_widget_home_section_about">關於</string>
+    <string name="photo_widget_home_data_saver">節省儲存空間</string>
+    <string name="photo_widget_home_data_saver_description">控制匯入照片的影像品質</string>
+    <string name="photo_widget_home_appearance">應用程式主題</string>
+    <string name="photo_widget_home_true_black_background">純黑背景</string>
+    <string name="photo_widget_home_dynamic_colors">應用程式色彩</string>
+    <string name="photo_widget_home_translations">應用程式語言</string>
+    <string name="photo_widget_home_backup">備份</string>
+    <string name="photo_widget_home_backup_description">匯出與匯入你的小工具</string>
+    <string name="photo_widget_home_share">分享這個應用程式</string>
+    <string name="photo_widget_home_rate">撰寫評論</string>
+    <string name="photo_widget_home_help">有東西不能用嗎？</string>
+    <string name="photo_widget_home_help_settings">說明</string>
+    <string name="photo_widget_home_background_service_description">讓應用程式保持運作，小工具才會按時更新，GIF 也才會繼續播放</string>
+    <string name="photo_widget_home_create_transparent">建立透明小工具</string>
+    <string name="photo_widget_home_common_issues">常見問題</string>
+    <string name="photo_widget_home_privacy_policy">隱私權政策</string>
+    <string name="photo_widget_home_developer">由 Filipe Belatti 用 ❤ 開發</string>
+    <string name="photo_widget_home_version">應用程式版本：%s</string>
+    <string name="photo_widget_home_changelog">最新變更</string>
+    <string name="photo_widget_home_view_licenses">開放原始碼授權</string>
+    <plurals name="photo_widget_home_share_received">
+        <item quantity="other">已收到 %d 張照片。請建立新的小工具，或選擇現有的小工具來加入。</item>
+    </plurals>
+    <string name="photo_widget_home_pinning_not_supported_title">請直接從主畫面加入小工具</string>
+    <string name="photo_widget_home_pinning_not_supported_message">1. 長按主畫面的空白處\n\n2. 選擇小工具選單\n\n3. 找到 Material Photo Widget\n\n4. 設定完成後儲存</string>
+    <string name="photo_widget_home_crash_report_title">你的協助能讓這個應用程式更好</string>
+    <string name="photo_widget_home_crash_report_body">應用程式或小工具似乎意外當機了。你可以選擇用電子郵件把詳細資料傳給我，幫助大家一起改善這個應用程式。</string>
+    <string name="photo_widget_home_crash_report_action_confirm">分享報告</string>
+    <string name="photo_widget_home_crash_report_action_cancel">不要分享</string>
+    <string name="photo_widget_home_crash_report_choose_title">傳送電子郵件</string>
+    <string name="photo_widget_home_empty_widgets">你還沒有加入任何小工具。\n加到主畫面的小工具會顯示在這裡。</string>
+    <string name="photo_widget_home_filter_all">全部</string>
+    <string name="photo_widget_home_transparent_label">透明</string>
+    <string name="photo_widget_home_highlight_transparent_title">顯示透明小工具</string>
+    <string name="photo_widget_home_highlight_transparent_subtitle">暫時為透明小工具加上背景，方便你在主畫面上找到並重新排列。</string>
+    <string name="photo_widget_home_draft_label">草稿</string>
+    <string name="photo_widget_home_draft_action_discard">捨棄草稿</string>
+    <string name="photo_widget_home_locked_label">已鎖定</string>
+    <string name="photo_widget_home_removed_label">已移除</string>
+    <string name="photo_widget_home_removed_widgets_hint">已移除的小工具不會再出現在主畫面上，7 天後會從應用程式中永久刪除。你可以選擇「保留」它們。</string>
+    <string name="photo_widget_home_invalid_label">需要注意</string>
+    <string name="photo_widget_home_invalid_widgets_hint">這個小工具可能沒有顯示，或是運作不正常。請試著在應用程式中編輯或刪除它的設定。如果沒有改善，可以從主畫面移除這個小工具，再重新加入一個。</string>
+    <string name="photo_widget_home_my_widget_action_sync">與資料夾照片同步</string>
+    <string name="photo_widget_home_my_widget_action_edit">檢視／編輯</string>
+    <string name="photo_widget_home_my_widget_action_duplicate">複製</string>
+    <string name="photo_widget_home_my_widget_action_lock">鎖定為目前照片</string>
+    <string name="photo_widget_home_my_widget_action_unlock">解除鎖定</string>
+    <string name="photo_widget_home_my_widget_lock_explainer">小工具鎖定後，照片不會自動更換，輕觸也不會更換</string>
+    <string name="photo_widget_home_removed_widget_action_restore">還原</string>
+    <string name="photo_widget_home_removed_widget_action_keep">保留</string>
+    <string name="photo_widget_home_removed_widget_action_delete">永久刪除</string>
+    <string name="photo_widget_home_my_widget_syncing_feedback">正在從資料夾取得最新照片…</string>
+
+    <!-- Preferences -->
+    <string name="preferences_data_saver">減少儲存空間用量</string>
+    <string name="preferences_data_saver_description">啟用後，加入小工具的照片會經過壓縮以節省空間。通常不會影響品質，但如果你的照片裡有很小的文字，建議關閉這個選項。\n\n這項設定只會影響變更之後才加入的照片。\n\n同步資料夾不受影響，因為那些照片是直接從裝置儲存空間讀取的。</string>
+    <string name="preferences_appearance_follow_system">跟隨系統</string>
+    <string name="preferences_appearance_light">淺色</string>
+    <string name="preferences_appearance_dark">深色</string>
+    <string name="preferences_dynamic_colors_enabled">動態色彩</string>
+    <string name="preferences_dynamic_colors_disabled">預設色彩</string>
+
+    <!-- Widget defaults -->
+    <string name="widget_defaults_title">小工具預設值</string>
+    <string name="widget_defaults_description">建立新小工具時會套用的設定</string>
+    <string name="widget_defaults_explanation">建立新的小工具時會先帶入這些設定值。如果你想用相同的設定建立多個小工具，這可以省下每次重新調整的工夫。請注意，修改這些值不會影響已經存在的小工具。</string>
+    <string name="widget_defaults_source">來源</string>
+    <string name="widget_defaults_shuffle">隨機排序</string>
+    <string name="widget_defaults_cycling">照片計時器</string>
+    <string name="widget_defaults_shape">形狀</string>
+    <string name="widget_defaults_corner_radius">圓角</string>
+    <string name="widget_defaults_opacity">不透明度</string>
+    <string name="widget_defaults_saturation">飽和度</string>
+    <string name="widget_defaults_brightness">亮度</string>
+    <string name="widget_defaults_tap_action">輕觸動作</string>
+    <string name="widget_defaults_reset">重設所有值</string>
+
+    <!-- Widget settings -->
+    <string name="widget_settings_title">小工具設定</string>
+    <string name="widget_settings_description">隨時套用到所有小工具的偏好設定</string>
+    <string name="widget_settings_explanation">和小工具預設值不同，這些設定會隨時套用到你所有的小工具。變更可能會立即生效，也可能要等到小工具下次更新時才生效，也就是你操作它或排程時間到的時候。</string>
+    <string name="widget_settings_crossfade">照片淡入淡出</string>
+    <string name="widget_settings_crossfade_description">小工具切換到下一張照片時以淡入淡出呈現。裝置關閉動畫效果時無效。</string>
+    <string name="widget_settings_folder_sync_interval">資料夾同步間隔</string>
+    <string name="widget_settings_folder_sync_interval_description">多久檢查一次你加入小工具的資料夾，看看照片有沒有新增、移除或變更。\n\n檢查越頻繁，小工具更新得越快，但也越耗電。</string>
+
+    <!-- Share -->
+    <string name="share_title">分享給更多人</string>
+    <string name="share_text">用 Material Photo Widget 把你喜歡的照片放上主畫面。免費下載：%s</string>
+
+    <!-- Source -->
+    <string name="photo_widget_source_photos">照片</string>
+    <string name="photo_widget_source_directory">資料夾</string>
+    <string name="photo_widget_source_gif">GIF</string>
+    <string name="photo_widget_source_photos_description">使用你預設的相簿選擇器挑選一張或多張照片。</string>
+    <string name="photo_widget_source_directory_description">選擇一個或多個資料夾來同步。照片會自動加入，並定期重新整理。</string>
+    <string name="photo_widget_source_gif_description">選擇一個 GIF 動畫在主畫面上播放。建議選擇較短、較單純的 GIF。</string>
+
+    <!-- Aspect ratio -->
+    <string name="photo_widget_aspect_ratio_title">格式</string>
+    <string name="photo_widget_aspect_ratio_shape">形狀</string>
+    <string name="photo_widget_aspect_ratio_shape_description">Material You 形狀</string>
+    <string name="photo_widget_aspect_ratio_square">正方形</string>
+    <string name="photo_widget_aspect_ratio_tall">直式</string>
+    <string name="photo_widget_aspect_ratio_wide">橫式</string>
+    <string name="photo_widget_aspect_ratio_original">原始比例</string>
+    <string name="photo_widget_aspect_ratio_original_description">依照每張照片</string>
+    <string name="photo_widget_aspect_ratio_fill_widget">填滿</string>
+    <string name="photo_widget_aspect_ratio_fill_widget_description">符合小工具大小</string>
+
+    <!-- Configure -->
+    <string name="photo_widget_configure_save_draft_prompt">要把變更儲存為草稿嗎？</string>
+    <string name="photo_widget_configure_navigate_back_warning">所有變更都會遺失，仍要返回嗎？</string>
+    <string name="photo_widget_configure_navigate_back_warning_restore">要完成還原，必須把小工具加到主畫面。要放棄還原並離開嗎？</string>
+    <string name="photo_widget_configure_tab_content">內容</string>
+    <string name="photo_widget_configure_tab_appearance">外觀</string>
+    <string name="photo_widget_configure_tab_text">文字</string>
+    <string name="photo_widget_configure_tab_behavior">行為</string>
+    <string name="photo_widget_configure_import_prompt">要從其他小工具匯入嗎？</string>
+    <string name="photo_widget_configure_import_prompt_action">選擇</string>
+    <string name="photo_widget_configure_import_dialog_title">選擇小工具</string>
+    <string name="photo_widget_configure_import_dialog_description">所有照片與設定都會複製到新的小工具</string>
+    <string name="photo_widget_configure_import_error">無法匯入所有選取的照片</string>
+    <string name="photo_widget_configure_too_many_photos_error">每個同步資料夾最多可包含 3000 張照片。你可以選擇多個資料夾，每個子資料夾會分開計算。\n\n你無法選取相機資料夾。照片是一張一張處理的，動輒數千張的資料夾會讓小工具編輯器嚴重卡頓，主畫面切換照片時也一樣。</string>
+    <string name="photo_widget_configure_too_many_photos_for_advanced_schedule_error">使用進階排程的小工具最多只能有 96 張照片。</string>
+    <string name="photo_widget_configure_missing_photos_error">小工具至少要有一張照片。小工具只能直接從主畫面刪除。</string>
+    <string name="photo_widget_configure_menu_source">來源</string>
+    <string name="photo_widget_configure_source_selection_directory_empty">這個小工具還沒有同步任何資料夾。</string>
+    <string name="photo_widget_configure_source_selection_directory_non_empty">這個小工具已同步下列資料夾：</string>
+    <string name="photo_widget_configure_source_warning">變更來源並確認後，這個小工具的所有內容資料都會被清除。此變更無法復原，你必須重新選擇照片或資料夾。</string>
+    <string name="photo_widget_configure_source_sync_scope">同步範圍</string>
+    <string name="photo_widget_configure_source_sync_scope_subfolders">包含子資料夾</string>
+    <string name="photo_widget_configure_source_sync_scope_folder_only">僅此資料夾</string>
+    <string name="photo_widget_configure_menu_crop">裁切</string>
+    <string name="photo_widget_configure_menu_remove">移除</string>
+    <string name="photo_widget_configure_menu_move_left">左移</string>
+    <string name="photo_widget_configure_menu_move_right">右移</string>
+    <string name="photo_widget_configure_photos_pending_deletion">最近刪除的照片</string>
+    <string name="photo_widget_configure_photos_excluded">已從小工具排除</string>
+    <string name="photo_widget_configure_pick_photo">選擇照片</string>
+    <string name="photo_widget_configure_pick_folder">選擇資料夾</string>
+    <string name="photo_widget_configure_pick_gif">選擇 GIF</string>
+    <string name="photo_widget_configure_pick_gif_replace">選擇另一個 GIF 會取代現有的，要繼續嗎？</string>
+    <string name="photo_widget_configure_change_source">變更來源</string>
+    <plurals name="photo_widget_configure_photo_quantity">
+        <item quantity="other">%d 張照片</item>
+    </plurals>
+    <plurals name="photo_widget_configure_photo_quantity_gif">
+        <item quantity="other">%d 個影格</item>
+    </plurals>
+    <string name="photo_widget_configure_select_cycling_mode">照片計時器</string>
+    <string name="photo_widget_configure_cycling_mode_interval">間隔</string>
+    <string name="photo_widget_configure_cycling_mode_schedule">排程</string>
+    <string name="photo_widget_configure_cycling_mode_disabled">停用</string>
+    <string name="photo_widget_configure_cycle_mode_advanced_schedule">進階排程</string>
+    <string name="photo_widget_configure_cycle_mode_advanced_schedule_no_time_warning">沒有指定時間的照片永遠不會顯示，而且每個時間不能重複。</string>
+    <string name="photo_widget_configure_cycle_mode_advanced_schedule_even_split">整天平均分配</string>
+    <string name="photo_widget_configure_cycle_mode_advanced_schedule_set_time">設定時間</string>
+    <string name="photo_widget_configure_cycle_mode_advanced_schedule_coerced">這個小工具的照片超過 %d 張，因此排程已改回 15 分鐘計時器。</string>
+    <string name="photo_widget_configure_cycle_mode_advanced_schedule_existing_time">這個時間已指定給另一張照片。</string>
+    <string name="photo_widget_configure_cycling_mode_interval_description">每隔固定時間切換到下一張照片</string>
+    <string name="photo_widget_configure_cycling_mode_schedule_description">在指定的時間切換到下一張照片（最多 %d 次）</string>
+    <string name="photo_widget_configure_cycle_mode_advanced_schedule_description">在內容分頁為每張照片指定時間（最多 %d 張）</string>
+    <string name="photo_widget_configure_cycling_mode_disabled_description">照片不會自動切換</string>
+    <string name="photo_widget_configure_interval_current_label">每 %s</string>
+    <plurals name="photo_widget_configure_interval_current_seconds">
+        <item quantity="other">%d 秒</item>
+    </plurals>
+    <plurals name="photo_widget_configure_interval_current_minutes">
+        <item quantity="other">%d 分鐘</item>
+    </plurals>
+    <plurals name="photo_widget_configure_interval_current_hours">
+        <item quantity="other">%d 小時</item>
+    </plurals>
+    <plurals name="photo_widget_configure_interval_current_days">
+        <item quantity="other">%d 天</item>
+    </plurals>
+    <string name="photo_widget_configure_interval_seconds_label">秒</string>
+    <string name="photo_widget_configure_interval_minutes_label">分鐘</string>
+    <string name="photo_widget_configure_interval_hours_label">小時</string>
+    <string name="photo_widget_configure_interval_days_label">天</string>
+    <string name="photo_widget_configure_schedule_add_new">新增</string>
+    <string name="photo_widget_configure_schedule_limit_reached">最多只能設定 %d 個時間</string>
+    <plurals name="photo_widget_configure_schedule_times">
+        <item quantity="other">已選擇 %d 個時間</item>
+    </plurals>
+    <string name="photo_widget_configure_interval_warning">Android 為了省電會加上限制，實際的間隔或排程時間可能因此有落差。想讓它確實照你設定的時間運作，請授予下方權限</string>
+    <string name="photo_widget_configure_interval_grant_permission">授予精確鬧鐘權限</string>
+    <string name="photo_widget_configure_interval_grant_permission_description">讓間隔較短的小工具能準時更新</string>
+    <string name="photo_widget_configure_interval_permission_dialog_title">關於這項權限</string>
+    <string name="photo_widget_configure_interval_permission_dialog_description">Android 為了省電可能會限制背景工作，導致每張照片之間的間隔變長。\n\n想讓小工具準確依照設定的間隔更新，請開啟設定並允許設定鬧鐘和提醒。</string>
+    <string name="photo_widget_configure_interval_open_settings">開啟設定</string>
+    <string name="photo_widget_configure_battery_optimization">關閉電池最佳化</string>
+    <string name="photo_widget_configure_battery_optimization_description">讓應用程式不被中斷，小工具才能保持更新</string>
+    <string name="photo_widget_configure_border">外框</string>
+    <string name="photo_widget_configure_border_none">無</string>
+    <string name="photo_widget_configure_border_dynamic">動態</string>
+    <string name="photo_widget_configure_border_dynamic_inverse">色彩 1</string>
+    <string name="photo_widget_configure_border_dynamic_primary">色彩 2</string>
+    <string name="photo_widget_configure_border_dynamic_primary_fixed">色彩 3</string>
+    <string name="photo_widget_configure_border_dynamic_secondary">色彩 4</string>
+    <string name="photo_widget_configure_border_dynamic_secondary_fixed">色彩 5</string>
+    <string name="photo_widget_configure_border_color">自訂色彩</string>
+    <string name="photo_widget_configure_border_color_palette">調色盤</string>
+    <string name="photo_widget_configure_border_color_palette_dominant">主要色彩</string>
+    <string name="photo_widget_configure_border_color_palette_vibrant">鮮豔色彩</string>
+    <string name="photo_widget_configure_border_color_palette_muted">柔和色彩</string>
+    <string name="photo_widget_configure_border_explanation">變更手機主題色彩後，小工具要等到下次更新才會套用。想立刻更新所有小工具，打開這個應用程式即可。</string>
+    <string name="photo_widget_configure_offset">位移</string>
+    <string name="photo_widget_configure_offset_current_values">水平：%1$d，垂直：%2$d</string>
+    <string name="photo_widget_configure_offset_current_horizontal">水平</string>
+    <string name="photo_widget_configure_offset_current_vertical">垂直</string>
+    <string name="photo_widget_configure_padding">內距</string>
+    <string name="photo_widget_configure_tap_action">輕觸動作</string>
+    <string name="photo_widget_configure_tap_action_description">自訂每個區域的輕觸動作。</string>
+    <string name="photo_widget_configure_tap_action_description_transparent">在主畫面上建立隱形捷徑。自訂每個區域的輕觸動作。</string>
+    <string name="photo_widget_configure_tap_action_copy_from">複製自…</string>
+    <string name="photo_widget_configure_tap_action_area_left">左側</string>
+    <string name="photo_widget_configure_tap_action_area_center">中央</string>
+    <string name="photo_widget_configure_tap_action_area_right">右側</string>
+    <string name="photo_widget_configure_tap_action_none">無</string>
+    <string name="photo_widget_configure_tap_action_view_full_screen">全螢幕檢視照片</string>
+    <string name="photo_widget_configure_tap_action_view_in_gallery">用相簿應用程式檢視</string>
+    <string name="photo_widget_configure_tap_action_view_next_photo">看下一張照片</string>
+    <string name="photo_widget_configure_tap_action_view_previous_photo">看上一張照片</string>
+    <string name="photo_widget_configure_tap_action_choose_next_photo">選擇下一張照片</string>
+    <string name="photo_widget_configure_tap_action_app_shortcut">開啟應用程式</string>
+    <string name="photo_widget_configure_tap_action_app_folder">應用程式資料夾</string>
+    <string name="photo_widget_configure_tap_action_app_folder_description">最多可選 12 個應用程式</string>
+    <string name="photo_widget_configure_tap_action_url_shortcut">開啟連結</string>
+    <string name="photo_widget_configure_tap_action_file_shortcut">開啟檔案</string>
+    <string name="photo_widget_configure_tap_action_choose_file">選擇檔案</string>
+    <string name="photo_widget_configure_tap_action_folder_shortcut">開啟資料夾</string>
+    <string name="photo_widget_configure_tap_action_choose_folder">選擇資料夾</string>
+    <string name="photo_widget_configure_tap_action_choose_folder_description">會用 Android 預設的檔案應用程式開啟，無法自訂。</string>
+    <string name="photo_widget_configure_tap_action_toggle_cycling">啟用／停用計時器</string>
+    <string name="photo_widget_configure_tap_action_toggle_cycling_description">輕觸可暫停照片計時器，再輕觸一次即可恢復。小工具鎖定期間，這個動作會停用。</string>
+    <string name="photo_widget_configure_tap_action_toggle_gif_playback">啟用／停用 GIF 播放</string>
+    <string name="photo_widget_configure_tap_action_share_photo">分享照片</string>
+    <string name="photo_widget_configure_tap_action_set_wallpaper">設為桌布</string>
+    <string name="photo_widget_configure_tap_action_remove_photo">移除照片</string>
+    <string name="photo_widget_configure_tap_action_remove_photo_description">只會把它排除在小工具之外，不會從手機刪除原始照片。</string>
+    <string name="photo_widget_remove_action_feedback_positive">照片已移除</string>
+    <string name="photo_widget_remove_action_feedback_negative">只剩一張照片，無法移除。</string>
+    <string name="photo_widget_configure_tap_action_increase_brightness">自動提高螢幕亮度</string>
+    <string name="photo_widget_configure_tap_action_view_original_photo">檢視原始照片（不裁切、不旋轉）</string>
+    <string name="photo_widget_configure_tap_action_do_not_shuffle">在檢視器切換照片時不要隨機排序</string>
+    <string name="photo_widget_configure_tap_action_keep_current_photo">在檢視器切換照片時不要更換目前的照片</string>
+    <string name="photo_widget_configure_tap_action_show_navigation_controls">顯示導覽控制項</string>
+    <string name="photo_widget_configure_tap_action_show_navigation_controls_description">顯示上一張、下一張與關閉按鈕。這些動作用拖曳手勢隨時都能操作。</string>
+    <string name="photo_widget_configure_tap_action_show_photo_picker">顯示照片選擇器</string>
+    <string name="photo_widget_configure_tap_action_show_photo_picker_description">顯示可開啟完整照片清單的按鈕</string>
+    <string name="photo_widget_configure_tap_action_show_share">顯示分享按鈕</string>
+    <string name="photo_widget_configure_tap_action_show_share_description">顯示可分享目前照片的按鈕</string>
+    <string name="photo_widget_configure_tap_action_show_photo_path">顯示照片路徑</string>
+    <string name="photo_widget_configure_tap_action_show_photo_path_description">顯示目前照片的檔案路徑。僅適用於已同步資料夾的小工具</string>
+    <string name="photo_widget_configure_tap_action_gallery_description_warning">這個動作會用相簿應用程式開啟目前的照片，因此無法瀏覽或切換到其他照片。</string>
+    <string name="photo_widget_configure_tap_action_gallery_description_app_selection">你也可以選擇要用哪一個相簿應用程式。</string>
+    <string name="photo_widget_configure_tap_action_choose_app">選擇應用程式</string>
+    <string name="photo_widget_configure_tap_action_open_with">開啟方式…</string>
+    <string name="photo_widget_configure_tap_action_search_apps">搜尋應用程式</string>
+    <string name="photo_widget_configure_tap_action_choose_shortcut">選擇捷徑</string>
+    <string name="photo_widget_configure_tap_action_launch_app">啟動應用程式</string>
+    <string name="photo_widget_configure_tap_action_search_no_apps">找不到應用程式</string>
+    <string name="photo_widget_configure_tap_action_disable_tap">計時器暫停時停用其他輕觸區域</string>
+    <string name="photo_widget_configure_tap_action_shared_preferences">使用這個輕觸動作的所有區域都會套用這些偏好設定。</string>
+    <string name="photo_widget_configure_tap_action_viewer_background_color">背景色彩</string>
+    <string name="photo_widget_configure_tap_action_viewer_background_color_default">主題預設</string>
+    <string name="photo_widget_configure_gif_frame_interval">影格間隔</string>
+    <string name="photo_widget_configure_gif_frame_interval_description">控制 GIF 動畫的播放速度。數值越小，播放越快。</string>
+    <string name="photo_widget_configure_gif_frame_interval_presets">預設值</string>
+    <string name="photo_widget_configure_add_to_home">加到主畫面</string>
+    <string name="photo_widget_configure_save_changes">儲存變更</string>
+    <string name="photo_widget_configure_widget_pinned">小工具已加入，去主畫面看看…</string>
+    <string name="photo_widget_time_picker_title">選擇時間</string>
+    <string name="photo_widget_directory_sort_title">照片排序</string>
+    <string name="photo_widget_directory_sort_newest_first">最新的在前</string>
+    <string name="photo_widget_directory_sort_oldest_first">最舊的在前</string>
+    <string name="photo_widget_directory_sort_explanation">排序依據是原始影像檔的最後修改日期，僅適用於已同步資料夾的小工具。</string>
+    <string name="photo_widget_crop_free_form">自由裁切</string>
+
+    <!-- Text -->
+    <string name="photo_widget_configure_text_type">類型</string>
+    <string name="photo_widget_configure_text_type_none">無</string>
+    <string name="photo_widget_configure_text_type_label">標籤</string>
+    <string name="photo_widget_configure_text_type_label_description">模仿應用程式名稱的樣式，融入主畫面的整體風格</string>
+    <string name="photo_widget_configure_text_value">文字</string>
+    <string name="photo_widget_configure_text_size">大小</string>
+    <string name="photo_widget_configure_text_vertical_offset">垂直位移</string>
+    <string name="photo_widget_configure_text_apply_shadow">加上陰影</string>
+    <string name="photo_widget_configure_text_sample">範例文字</string>
+    <string name="photo_widget_configure_text_caveat">照片和文字共用同一塊小工具區域，文字會採用系統預設樣式。你可以用上方的設定，搭配照片位移與內距來微調位置。</string>
+
+    <!-- Help articles -->
+    <string name="help_article_title_1">無法把小工具加到主畫面</string>
+    <string name="help_article_body_1">如果你設定好小工具後，按下加到主畫面卻沒有反應，或是加上去了卻沒顯示你選的照片，可以試著直接從主畫面加入。\n\n實際步驟會因 Android 版本、裝置廠牌和桌面啟動器而有所不同，但大致如下：\n\n1. 長按主畫面的空白處，直到彈出選單出現。\n2. 找到「小工具」選項。\n3. 在可用的小工具中找到「Material Photo Widget」。\n4. 把它拖到主畫面，然後照一般方式設定。</string>
+    <string name="help_article_title_2">照片沒有自動更換</string>
+    <string name="help_article_body_2">你設定的間隔或排程時間只是下一張照片出現時機的概略值。Android 判斷實際時間時會考量多項因素，而且每家裝置廠商都可能對背景程序加上自己的限制。\n\n想讓照片確實在你要的時間更換，請授予這個應用程式「精確鬧鐘」權限，並在手機設定中確認沒有對它套用任何電池限制。</string>
+    <string name="help_article_title_3">重新開機後小工具就失效</string>
+    <string name="help_article_body_3">手機重新開機時，Android 會發送訊號通知各個應用程式，讓它們自行重新啟動。可惜有些裝置廠商（例如小米、Redmi、華為等）會擋掉這個訊號。\n\n要讓這項功能正常運作，請到你手機的安全性應用程式中修改「自動啟動」權限。</string>
+    <string name="help_article_title_4">小工具太小了</string>
+    <string name="help_article_body_4">把小工具加到主畫面後，長按它就會出現調整大小的選項，接著拖曳邊框就能調成你想要的大小。</string>
+    <string name="help_article_title_5">小工具有時會變成錯誤圖示</string>
+    <string name="help_article_body_5">這個應用程式本身不常開啟，通常只有要編輯小工具時才會用到。小工具是在桌面啟動器裡獨立運作的，這會讓 Android 以為這個應用程式不重要，於是把它停止以回收資源。應用程式被停止時，它的小工具也會一起停止。想避免這種情況，請把這個應用程式的電池用量設為「無限制」。</string>
+
+    <!-- Background restrictions -->
+    <string name="restriction_warning_hint">背景活動受到限制，小工具可能無法正常運作。輕觸即可瞭解詳情。</string>
+    <string name="restriction_warning_dialog_title">背景工作限制與電池最佳化</string>
+    <string name="restriction_warning_dialog_body_1">Material Photo Widget 需要在背景運作才能更新你的小工具。如果電池用量設為「最佳化」，Android 可能會停止這個應用程式，導致小工具無法正常更新。</string>
+    <string name="restriction_warning_dialog_body_2">你可以用下方的按鈕授予權限，或是開啟應用程式設定並前往「應用程式電池用量」，輕觸「允許在背景使用」並選擇「無限制」，以確保更新穩定。</string>
+    <string name="restriction_warning_dialog_body_3">有些裝置也會阻擋應用程式在重新開機後啟動。請在設定中搜尋「自動啟動」，或前往 https://dontkillmyapp.com 查看你的手機品牌專屬的說明。</string>
+    <string name="restriction_warning_grant_battery_permission">授予權限</string>
+    <string name="restriction_warning_open_app_settings">開啟應用程式設定</string>
+
+    <!-- Translations -->
+    <string name="translations_dialog_title">幫忙翻譯成你的語言</string>
+    <string name="translations_dialog_body">這個應用程式的翻譯是由社群協力完成的，你的幫忙能讓它更好。如果你希望看到新的語言，或是發現哪裡翻得不對，都歡迎一起參與。</string>
+    <string name="translations_dialog_positive_action">開啟 Crowdin</string>
+    <string name="translations_dialog_negative_action">暫時不要</string>
+
+    <!-- Backup -->
+    <string name="backup_explanation_1">匯出照片小工具的&lt;i>內容&lt;/i>與&lt;i>外觀&lt;/i></string>
+    <string name="backup_explanation_2">匯入備份檔即可還原你先前的小工具</string>
+    <string name="backup_explanation_3">&lt;b>已同步資料夾的小工具無法匯出。&lt;/b>存取所選裝置資料夾的權限是儲存在你的裝置上，無法轉移，這類小工具必須重新建立</string>
+    <string name="backup_create">建立備份</string>
+    <string name="backup_restore">從備份還原</string>
+    <string name="backup_items_title">備份檔中的小工具</string>
+    <string name="backup_item_restore">還原</string>
+    <string name="backup_feedback_success">備份匯出成功</string>
+    <string name="backup_feedback_error">無法建立備份檔。請確認你有可匯出的小工具，然後再試一次。</string>
+    <string name="backup_feedback_restore_error">還原備份失敗。請確認你選擇的是有效的備份檔。</string>
+
+    <!-- Viewer -->
+    <string name="photo_widget_viewer_all_photos">所有照片</string>
+    <string name="photo_widget_viewer_quick_actions_copy">複製路徑</string>
+    <string name="photo_widget_viewer_quick_actions_open_folder">開啟上層資料夾</string>
+    <string name="photo_widget_cycling_feedback_paused">小工具已暫停</string>
+    <string name="photo_widget_cycling_feedback_resumed">小工具已恢復</string>
+
+    <!-- App folder -->
+    <string name="photo_widget_app_folder_empty">你還沒有把應用程式加到這個資料夾。輕觸「繼續」即可開啟小工具編輯器。</string>
+    <string name="photo_widget_app_folder_add_app">新增應用程式</string>
+
+    <!-- Keep alive service -->
+    <string name="photo_widget_keep_alive_service_dialog_title">背景服務</string>
+    <string name="photo_widget_keep_alive_service_dialog_toggle">啟用背景服務</string>
+    <string name="photo_widget_keep_alive_service_dialog_body">你可以啟用背景服務，讓 Android 知道這個應用程式很重要、不應該被停止。別擔心，它只會做讓小工具準時顯示照片所需的最低限度工作，不會額外耗電。&lt;br/>&lt;br/>主畫面上的小工具是由桌面啟動器管理，不是由應用程式直接管理。由於這個應用程式很少在前景執行，&lt;b>系統可能會認為它不重要而將它停止&lt;/b>。一旦發生，&lt;b>小工具也會跟著停止，照片就不會出現&lt;/b>。這在 &lt;b>Samsung 裝置&lt;/b>上特別常見。</string>
+    <string name="photo_widget_keep_alive_service_required_for_gif">GIF 小工具需要背景服務才能播放動畫。你可以在設定分頁瞭解更多。要啟用嗎？</string>
+    <string name="photo_widget_keep_alive_service_gif_widgets_warning">目前有 GIF 小工具正在使用背景服務。停用後它們可能會停止播放動畫。</string>
+    <string name="notification_channel_name_keep_alive">背景服務</string>
+    <string name="notification_channel_description_keep_alive">即使長時間在背景，也讓應用程式保持運作，確保小工具能正常更新。</string>
+
+    <!-- Common actions -->
+    <string name="photo_widget_action_yes">是</string>
+    <string name="photo_widget_action_no">否</string>
+    <string name="photo_widget_action_continue">繼續</string>
+    <string name="photo_widget_action_cancel">取消</string>
+    <string name="photo_widget_action_apply">套用</string>
+    <string name="photo_widget_action_confirm">確認</string>
+    <string name="photo_widget_action_got_it">知道了</string>
+    <string name="photo_widget_action_dismiss">關閉</string>
+    <string name="photo_widget_action_learn_more">瞭解詳情</string>
+    <string name="photo_widget_action_ignore">忽略</string>
+    <string name="photo_widget_action_share">分享</string>
+    <string name="photo_widget_action_restore">還原</string>
+    <string name="photo_widget_action_delete_permanently">永久刪除</string>
+    <string name="photo_widget_action_reset">重設</string>
+
+    <!-- Misc -->
+    <string name="hint_scroll_to_view_more">捲動以查看更多</string>
+    <string name="warning_experimental">實驗性</string>
+    <string name="warning_gif_widget_battery_usage">GIF 小工具可能比較耗電。應用程式必須持續運作才能播放動畫。螢幕關閉時會暫停以節省資源，但你在使用其他應用程式時，它無法判斷主畫面是否被遮住。</string>
+    <string name="photo_widget_cd_host">Material Photo 主畫面小工具</string>
+</resources>

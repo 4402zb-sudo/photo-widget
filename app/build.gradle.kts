@@ -16,7 +16,7 @@ plugins {
 
 object AppInfo {
 
-    const val APP_NAME = "Material Photo Widget"
+    const val APP_NAME = "Widget客製"
     const val APPLICATION_ID = "com.fibelatti.photowidget"
 
     private const val VERSION_MAJOR = 1
@@ -128,7 +128,6 @@ androidComponents {
     onVariants { variant ->
         val appName = StringBuilder().apply {
             append(AppInfo.APP_NAME)
-            if (variant.name.contains("debug", ignoreCase = true)) append(" Dev")
         }.toString()
 
         variant.resValues.put(
@@ -137,7 +136,13 @@ androidComponents {
         )
 
         variant.androidResources.localeFilters
-            .addAll("en", "de", "es", "fil", "fr", "it", "iw", "ja", "pt", "ro", "ru", "sr", "tr", "zh")
+            .addAll(
+                "en", "de", "es", "fil", "fr", "it", "iw", "ja",
+                "pt", "ro", "ru", "sr", "tr",
+                "zh",          // 既有：values-zh（簡體）
+                "zh-rTW",      // 新增：values-zh-rTW（繁體）
+                "b+zh+Hant",   // 保險：萬一日後資料夾改成 b+ 命名
+            )
     }
 }
 

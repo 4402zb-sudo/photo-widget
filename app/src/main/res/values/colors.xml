@@ -10,5 +10,6 @@
 
     <color name="color_icon">#424242</color>
 
-    <color name="ic_launcher_background">#00390D</color>
+    <color name="ic_launcher_background">#D9DDE2</color>
+    <color name="ic_launcher_foreground">#333A42</color>
 </resources>
